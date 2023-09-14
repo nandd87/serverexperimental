@@ -1,0 +1,18 @@
+
+POST http://localhost:3001/create
+Content-Type: application/json
+
+{
+    "shopID" : 1 ,
+    "nama" : "TES",
+    "harga": 10000,
+    "tipe" : "TES",
+    "img" : "TES",
+    "deskripsi" : "TES"
+}
+
+###
+GET http://localhost:3001/tbproduk
+
+###
+get http://localhost:3001/getuser
